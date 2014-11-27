@@ -8,6 +8,9 @@
       });
       matrix.push( row );
     }); 
-    callback( matrix );
+    if( callback ) {
+      return callback( matrix );
+    } 
+    return matrix;
   };
 }( jQuery ) );
