@@ -1,0 +1,30 @@
+{
+  "name": "jquery.table-matrix",
+  "version": "1.0.0",
+  "description": "jquery plugin to create data matrix from table",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ugly": "uglifyjs src/tableMatrix.js -o dist/jquery.table-matrix.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanPrince/jquery.table-matrix.git"
+  },
+  "keywords": [
+    "jquery",
+    "data",
+    "table"
+  ],
+  "author": "Jonathan Prince <jonathan.prince@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanPrince/jquery.table-matrix/issues"
+  },
+  "homepage": "https://github.com/JonathanPrince/jquery.table-matrix",
+  "devDependencies": {
+    "uglifyjs": "^2.3.6"
+  }
+}
