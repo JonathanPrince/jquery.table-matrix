@@ -4,10 +4,11 @@
   "description": "jquery plugin to create data matrix from table",
   "main": " ",
   "directories": {
-    "test": "test"
   },
   "scripts": {
-    "ugly": "uglifyjs src/tableMatrix.js -o dist/jquery.table-matrix.min.js"
+  	"test": "npm run jshint",
+    "uglifyjs": "uglifyjs src/tableMatrix.js -o dist/jquery.table-matrix.min.js",
+    "jshint": "jshint src/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/JonathanPrince/jquery.table-matrix",
   "devDependencies": {
+    "jshint": "^2.5.10",
     "uglifyjs": "^2.3.6"
   }
 }
